@@ -1,0 +1,966 @@
+.main-img    {
+    background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg-529db4932f69460b80c6c072b3845fe5e9542b311f9ae58d4146c3592beea1e4.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 110px);
+    width: 223px;
+    height: 135px;
+}
+.text {
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.8;
+}
+.text p {
+    font-weight: bold;
+    padding-bottom: 40px;
+    opacity: 0.8;
+}
+.flower-box {
+    background-color: rgb(246, 245, 240);
+    width: 100%;
+    height: 520px;
+}
+.text2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+}
+.store-btn {
+    margin-top: -30px;
+}
+.text2 h1 {
+    font-size: 1.6rem;
+    opacity: 0.7;
+}
+.text2 p {
+    opacity: 0.7;
+    line-height: 25px;
+}
+.img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.img img {
+    width: 95%;
+    height: auto;
+    padding-top: 70px;
+    
+}
+.container {
+    padding-bottom: 110px;
+    background-color: rgb(246, 245, 240);
+    display: flex;
+    margin: 0 auto;
+    width: 880px;
+    height: 100%;
+}
+.container2 {
+    display: flex;
+    background-color: rgb(235, 221, 214);
+    margin: 0 auto;
+    width: 100%;
+    height: 470px;
+}
+.img2 {
+    width: 80%;
+    height: 100%;
+}
+.img2 img {
+    width: 90%;
+    height: 100%;
+}
+.text3 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text3 h1 {
+    font-size: 1.4rem;
+    opacity: 0.7;
+}
+.text3 p {
+    opacity: 0.7;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.container3 {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 460px;
+    background-color: rgb(216, 208, 226);
+}
+.img3 {
+    width: 60%;
+    height: 100%;
+}
+.img3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.text4 {
+    width: 70%;
+    height: 100%;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text4 p {
+    padding-left: 50px;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin-top: -9px;
+}
+.text4 h1{
+    font-size: 1.4rem;
+    opacity: 0.8;
+}
+.container4 {
+    display: flex;
+    background-color: rgb(201, 212, 218);
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+.img4 {
+    width: 70%;
+    height: 100%;
+}
+.img4 img {
+    height: 100%;
+    width: 100%;
+}
+.text5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.text5 h1 {
+    font-size: 1.4rem;
+    opacity: 0.7;
+    letter-spacing: 0.05rem;
+}
+.text5 p {
+    opacity: 0.7;
+    letter-spacing: 0.05rem;
+}
+.delivery {
+    width: 100%;
+}
+.delivery p {
+    font-size: 0.6rem;
+}
+.img5  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.img7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.fan {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.8;
+}
+.smartphone {
+    width: 30%;
+    height: 100%;
+}
+.smartphone img {
+    width: 150px;
+    height: auto;
+}
+h3 {
+    text-align: center;
+}
+.house img {
+    width: 150px;
+    height: auto;
+}
+.hause {
+    height: 100%;
+    width: 30%;
+}
+.life img {
+    width: 150px;
+    height: auto;
+}
+.life {
+    width: 30%;
+    height: 100%;
+}
+.sorrow1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    padding-top: 100px;
+}
+.sorrow1 img {
+    width:  80px;
+    padding-right: 50px;
+}
+.sorrow2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+    padding-top: 100px;
+}
+.sorrow2 img {
+    width:  80px;
+    padding-left: 50px;
+}
+h3 {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app p {
+    margin-top: -8px;
+}
+.water {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.water p {
+    margin-top: -8px;
+}
+.place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place p {
+    margin-top: -8px;
+}
+.delivery p {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.wrapper {
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+}
+.instagram {
+    display: flex;
+    margin: 0 auto;
+    width: 840px;
+    padding-right: 70px;
+}
+h4 {
+    text-align: center;
+    opacity: 0.7;
+    font-size: 1.7rem;
+    padding-top: 20px;
+}
+.flower1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.flower2 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.flower3  {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.flower4  {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.space {
+    padding-left: 20px;
+}
+.space1 {
+    width: 100%;
+    padding-top: 35px;
+}
+.instagram2 {
+    display: flex;
+    margin: 0 auto;
+    width: 840px;
+    padding-right: 70px;
+}
+.flower5 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;;
+}
+.flower6 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.flower7 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.flower8  {
+    width: 25%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.aicon img{
+    position: absolute;
+}
+.btn-wrap {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.btn {   
+    color: black;
+    text-decoration: none;
+    border: solid 2px;
+    padding: 20px 70px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 40px;
+    opacity: 0.8;
+}
+h5 {
+    text-align: center;
+    font-size: 1.6rem;
+    opacity: 0.8;
+}
+.container5 {
+    background-color: rgb(242, 227, 228);
+    padding-bottom: 70px;
+    padding-top: 30px;
+    width: 100%;
+}
+.style {
+    display: flex;
+    width: 860px;
+    height: 100%;
+    margin: 0 auto;
+}
+.style h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    opacity: 0.8;
+}
+.style p {
+    font-size: 0.9rem;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+.style ul {
+    font-size: 0.9rem;
+    padding-left: 55px;
+    opacity: 0.8;
+}
+.style span {
+    padding-left: 40px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.8;
+}   
+.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box1 img {
+    width: 410px;
+    height: auto;
+    vertical-align: bottom;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.box2 {
+    padding-left: 40px;
+}
+.box2 img {
+    width: 410px;
+    height: auto;
+    vertical-align: bottom;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.text-box1 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.text-box2 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model img {
+    width: 150px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.container6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 245, 240);
+}
+.container6 h1{
+    text-align: center;
+    font-size: 1.8rem;
+    opacity: 0.8;
+}
+.word {
+    font-size: 1.1rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.quetion p {
+    line-height: 1.8;
+    opacity: 0.8;
+    margin-top: -5px;
+}
+.flower-img img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.logo2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.logo2 img {
+    width: 200px;
+    height: auto;
+}
+.logo2 p {
+    color: white;
+    font-weight: bold;
+}
+.store-btn2 {
+    margin-top: 10px;
+}
+.footer {
+    background-color: rgb(63, 67, 73);
+    padding-bottom: 60px;
+    width: 100%;
+    padding-top: 150px;
+}
+.contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents a {
+    padding-left: 40px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.social-icons a {
+    padding-left: 20px;
+}
+.social-icons {
+    list-style-type: none;
+}
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+.text6 h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(139, 142, 146);
+    font-size: 0.8rem;
+}
+@media screen and (max-width: 600px) {
+    * {
+        box-sizing: inherit;
+        margin: 0;
+    }
+    .main-img    {
+        background-size: cover;
+        height: 80vh;
+        background-position: center bottom;
+        background-image: url("https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/header_bg_S-a122e790411136498fd27601c89ec41731318e72576ffe697ada32dff095fd71.jpg");
+        position: relative;
+    }
+
+.logo img {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 110px);
+    width: 223px;
+    height: 135px;
+    }
+.flower-box {
+    height: 800px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+.img {
+    width: 90%;
+}
+.text2 {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.text2 p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    line-break: auto;
+}
+.store-btn {
+    display: flex;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.br {
+    display: none;
+}
+.img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text3 {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text3 h1 {
+    font-size: 1.2rem;
+    line-break: auto;
+}
+.text3 p {
+    padding-top: 10px;
+    line-break: auto;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.img3 {
+    width: 100%;
+}
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.text4 p {
+    padding-top: 20px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.img4 {
+    width: 100%;
+}
+.img4 img {
+    object-fit: cover;
+}
+.text5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 90.5%;
+    margin-top: -70px;
+}
+.text5 p {
+    padding-top: 20px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.delivery {
+    overflow-x: scroll;
+    padding-bottom: 40px;
+}
+.fan {
+    flex-shrink: 0;
+    padding-top: 20px;
+}
+.smartphone {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.app {
+    padding-top: 30px;
+}
+.app p {
+    padding-top: 20px;
+    letter-spacing: 0.1rem;
+}
+.house {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.water {
+    padding-top: 30px;
+}
+.water p {
+    padding-top: 20px;
+    letter-spacing: 0.1rem;
+}
+.sorrow1 img {
+    width: 50px;
+    height: auto;
+    padding-top: 30px;
+}
+.sorrow2 {
+    margin-left: -50px;
+    margin-right: -30px;
+}
+.sorrow2 img {
+    width: 50px;
+    height: auto;
+    padding-top: 30px;
+}
+.house {
+    width: 90%;
+    margin-left: -50px;
+}
+.water {
+    width: 100%;
+}
+.life {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place {
+    padding-top: 30px;
+}
+.place p {
+    padding-top: 20px;
+    letter-spacing: 0.1rem;
+}
+.instagram {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+h4 {
+    padding-top: 50px;
+    font-size: 1.4rem;
+}
+.flower1 {
+    width: 42%;
+}
+.flower1 img {
+    width: 100%;
+}
+.flower2 {
+    width: 42%;
+}
+.flower2 img {
+    width: 100%;
+}
+.flower3 {
+    width: 42%;
+    margin-top: 30px;
+}
+.flower3 img {
+    width: 100%;
+}
+.flower4 {
+    width: 42%;
+    margin-top: 30px;
+}
+.flower4 img {
+    width: 100%;
+}
+.instagram2 {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 30px;
+}
+.flower5 {
+    width: 42%;
+}
+.flower5 img {
+    width: 100%;
+}
+.flower6 {
+    width: 42%;
+}
+.flower6 img {
+    width: 100%;
+}
+.flower7 {
+    width: 42%;
+    margin-top: 30px;
+}
+.flower7 img {
+    width: 100%;
+}
+.flower8 {
+    width: 42%;
+    margin-top: 30px;
+}
+.flower8 img {
+    width: 100%;
+}
+.box1 {
+    padding-left: 20px;
+}
+
+.style1 {
+    overflow-x: scroll;
+    padding-top: 30px;
+}
+.style {
+    flex-shrink: 0;
+}
+.style1 {
+    padding-right: 40px;
+}
+.style p {
+    padding-top: 10px;
+    letter-spacing: 0.05rem;
+}
+.style ul {
+    padding-top: 20px;
+    letter-spacing: 0.05rem;
+}
+.style span {
+    display: block;
+    padding-top: 20px;
+}
+.brand {
+    overflow-x: scroll;
+    height: 150px;
+}
+.model {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+.container6 {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.container6 h1 {
+    font-size: 1.5rem;
+}
+.quetion {
+    width: 85%;
+}
+.word {
+    font-size: 1rem;
+}
+.word2 {
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+.quetion p {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.contents {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 2.5rem;
+    padding-left: initial;
+}
+.social-icons {
+    display: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.social-icons a {
+    padding-left: initial;
+    padding-left: 5px;
+}
+.logo2 {
+    display: none;
+}
+.flower-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.footer {
+    margin-top: 220px;
+}
+.contents a {
+    padding-left: initial;
+    padding-left: 20px;
+}
+.social-icons a {
+    padding-left: initial;
+    padding-left: 10px;
+}
+.text6 {
+    padding-top: 30px;
+    display: none;
+    display: flex;
+    padding-left: 30px;
+}
+}
